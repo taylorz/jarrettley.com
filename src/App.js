@@ -1,26 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import createHistory from 'history/createBrowserHistory'
+import Home from './pages/Homepage/Homepage'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const routes = [
+  { path: '/', name: 'Home', Component: Home },
+]
 
-export default App;
+const history = createHistory()
+export default () => (
+    <Router history={history}>
+      <Route
+        render={({ location }) => {
+        const {key} = location
+
+          return(
+            <TransitionGroup component={null}>
+                <CSSTransition
+                key={key}
+                appear={true}
+                classNames="my-node"
+                timeout={{enter: 500, exit: 500}}
+                >
+                <Switch location={location}>
+                  {routes.map(({ path, Component }) => (
+                    <Route key={path} exact path={path}>
+                      {({ match }) => (
+                        <div className="my-node">
+                          <Component/>
+                        </div>
+                      )}
+                    </Route>
+                  ))}
+                </Switch>
+              </CSSTransition>
+            </TransitionGroup>
+          )    
+        }}
+      />
+    </Router>
+  )
