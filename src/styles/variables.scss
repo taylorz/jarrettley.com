@@ -2,8 +2,22 @@ $buffer:                             5px;
 
 $primaryFont:                        Helvetica, Arial, sans-serif;
 
-$fontSize:                           24px;
-$fontSizeStatement:                  48px;
+$fontSize:                           18px;
+$fontSizeStatement:                  36px;
 
-$lineHeight:                         26px;
-$lineHeightStatement:                50px;
+$lineHeight:                         20px;
+$lineHeightStatement:                40px;
+
+$lightFontColor:                   #eaeaea;
+$fontColor:                        #000000;
+$primaryColor:                     #0000ff;
+
+
+$timing:                             .25s;
+$easingRegular:                      linear;
+$transition:                         all $timing $easingRegular;
+
+$xs:                                 600px;
+$sm:                                 960px;
+$md:                                 1280px;
+$lg:                                 1920px;

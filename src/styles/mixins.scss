@@ -17,3 +17,7 @@
       @warn "Breakpoint mixin supports: xs, sm, md, lg";
     }
   }
+
+  @mixin transition {
+    transition: $transition;
+  }

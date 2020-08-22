@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import createHistory from 'history/createBrowserHistory'
 import Home from './pages/Homepage/Homepage'
+import Nav from './components/Nav/Nav'
 
 const routes = [
   { path: '/', name: 'Home', Component: Home },
@@ -12,6 +13,7 @@ const routes = [
 const history = createHistory()
 export default () => (
     <Router history={history}>
+      <Nav/>
       <Route
         render={({ location }) => {
         const {key} = location

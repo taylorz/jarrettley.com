@@ -1,0 +1,16 @@
+@import "../../styles/styles.scss";
+
+.reel-text-container {
+    margin-top: 50vh;
+    font-size: $fontSizeStatement;
+    line-height: $lineHeightStatement;
+    &:last-child {
+        margin-bottom: 50vh;
+    }
+    .text-title {
+        text-transform: uppercase;
+        border-top: 4px solid $primaryColor;
+        color: $primaryColor;
+        padding: $lineHeight 0 $lineHeight*3 0;
+    }
+}

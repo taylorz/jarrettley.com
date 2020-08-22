@@ -12,6 +12,7 @@ body {
     -webkit-font-variant-ligatures: common-ligatures;
     font-smoothing: antialiased;
     font-weight: bold;
-    font-size: $fontSizeStatement;
+    font-size: $fontSize;
+    line-height: $lineHeight;
     font-family: $primaryFont;
 }

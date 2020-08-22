@@ -1,0 +1,33 @@
+@import "../../styles/styles.scss";
+
+.nav-container {
+    padding: $buffer*2;
+    font-size: $fontSizeStatement;
+    line-height: $lineHeightStatement;
+    position: fixed;
+    z-index: 5;
+    .nav-wrapper {
+        ul.nav-links {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: inline;
+            @include transition;
+            &:hover {
+                color: $lightFontColor;
+                @include transition;
+            }
+            li {
+                &.nav-name {
+                    display: inline;
+                }
+                display: inline;
+                &:hover {
+                    cursor: pointer;
+                    color: $fontColor;
+                    @include transition;
+                }
+            }
+        }
+    }
+}

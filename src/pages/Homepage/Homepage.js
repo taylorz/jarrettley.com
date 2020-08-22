@@ -1,9 +1,13 @@
 import React from 'react';
 import './Homepage.scss';
-import Grid from '@material-ui/core/Grid'
+import PageContainer from '../../components/PageContainer/PageContainer'
+import Reel from '../../components/Reel/Reel'
 
 const Homepage = () => (
-    <div className="homepage">JARRETT LEY</div>
+    <PageContainer>
+        <Reel text></Reel>
+        {/* <Reel image></Reel> */}
+    </PageContainer>
 )
 
 export default Homepage
