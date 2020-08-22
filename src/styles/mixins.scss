@@ -21,3 +21,18 @@
   @mixin transition {
     transition: $transition;
   }
+
+@mixin animation($name, $duration, $timing, $delay, $count, $direction, $fill) {
+  animation: $name $duration $timing $delay $count $direction $fill;
+}
+
+@keyframes reel1 {
+  0% {
+    transform: translateY(0px);
+    // top: 0;
+  }
+  100% {
+    transform: translateY(-80%);
+    // top: -100%;
+  }
+}

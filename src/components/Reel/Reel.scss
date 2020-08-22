@@ -3,4 +3,5 @@
 .reel-container {
     position: absolute;
     top: 0;
+    @include animation(reel1, 180s, linear, 0s, infinite, alternate, forwards)
 }
