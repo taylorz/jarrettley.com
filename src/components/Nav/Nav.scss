@@ -14,7 +14,7 @@
             display: inline;
             @include transition;
             &:hover {
-                color: $lightFontColor;
+                color: $fontColor;
                 @include transition;
             }
             li {
@@ -24,7 +24,7 @@
                 display: inline;
                 &:hover {
                     cursor: pointer;
-                    color: $fontColor;
+                    color: $primaryColor;
                     @include transition;
                 }
             }

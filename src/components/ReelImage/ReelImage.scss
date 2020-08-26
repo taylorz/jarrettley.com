@@ -1,0 +1,12 @@
+@import "../../styles/styles.scss";
+
+.reel-image-container {
+    margin-top: $buffer*2;
+    &:first-child {
+        margin-top: 0;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -7,10 +7,10 @@ const Nav = () => (
         <Grid item xs={12} className="nav-wrapper">
             <ul className="nav-links">
                 <li className="nav-name">JARRETT LEY</li><br/>
+                <li>THE NEAR DEATH OF ZAOURA, </li>
                 <li>A POLITICS OF DISSASSEMBLY, </li>
                 <li>EVIDENCING LIFE, </li>
-                <li>JUST CITIZENSHIP, </li>
-                <li>THE NEAR DEATH OF ZAOURA</li>
+                <li>JUST CITIZENSHIP</li>
             </ul>
         </Grid>
     </Grid>

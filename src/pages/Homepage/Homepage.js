@@ -5,8 +5,8 @@ import Reel from '../../components/Reel/Reel'
 
 const Homepage = () => (
     <PageContainer>
-        <Reel text></Reel>
-        {/* <Reel image></Reel> */}
+        <Reel text/>
+        <Reel image />
     </PageContainer>
 )
 

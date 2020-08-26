@@ -6,8 +6,8 @@ const ReelText = ({ text, title, year }) => (
     <Grid container className="reel-text-container" justify="center">
         <Grid item xs={10} className="text-title">
             <Grid container>
-                <Grid item xs={6}>{title}</Grid>
-                <Grid item container xs={6} justify="flex-end">{year}</Grid>
+                <Grid item xs={8}>{title}</Grid>
+                <Grid item container xs={4} justify="flex-end">{year}</Grid>
             </Grid>
         </Grid>
         <Grid item xs={10} className="text-body">{text}</Grid>
