@@ -20,6 +20,7 @@ import el5 from "../assets/images/el/el-5.jpg"
 import el6 from "../assets/images/el/el-6.png"
 import el7 from "../assets/images/el/el-7.png"
 
+import spacer from "../assets/images/spacer.png"
 
 
 const PROJECTS = [
@@ -32,7 +33,8 @@ const PROJECTS = [
             doz2,
             doz3,
             doz4,
-            doz5
+            doz5,
+            spacer
         ]
     },
     {
@@ -46,7 +48,8 @@ const PROJECTS = [
             pod4,
             pod5,
             pod6,
-            pod7
+            pod7,
+            spacer
         ]
     },
     {
@@ -60,7 +63,8 @@ const PROJECTS = [
             el4,
             el5,
             el6,
-            el7
+            el7,
+            spacer
         ]
     },
 ]

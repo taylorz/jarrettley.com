@@ -7,8 +7,7 @@
         @include animation(reel1, 180s, ease-in-out, 0s, infinite, alternate, forwards)
     }
     .reel-image-wrapper {
-        margin-bottom: 100vh;
         z-index: -2;
-        @include animation(reel1, 180s, ease-in-out, 0s, infinite, alternate, forwards)
+        @include animation(reel1, 240s, ease-in-out, 0s, infinite, alternate, forwards)
     }
 }
