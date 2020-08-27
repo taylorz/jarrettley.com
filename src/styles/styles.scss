@@ -15,4 +15,28 @@ body {
     font-size: $fontSize;
     line-height: $lineHeight;
     font-family: $primaryFont;
+    a {
+        text-decoration: none;
+        color: inherit;
+        &:link { color: inherit; }
+        &:visited { color: inherit; }
+        &:hover { color: inherit; }
+        &:active { color: inherit; }
+    }
+    .my-node-appear {
+        opacity: 0;
+        @include animation(fadeIn, $timing, $easingRegular, .5s, 1, normal, forwards)
+      }
+      .my-node-enter {
+        opacity: 0;
+      }
+      .my-node-enter-active {
+        @include animation(fadeIn, $timing, $easingRegular, .5s, 1, normal, forwards)
+      }
+      .my-node-exit {
+        opacity: 1;
+      }
+      .my-node-exit-active {
+        @include animation(fadeOut, $timing, $easingRegular, 0s, 1, normal, forwards)
+      }
 }

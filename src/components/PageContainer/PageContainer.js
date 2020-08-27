@@ -2,8 +2,8 @@ import React from 'react';
 import './PageContainer.scss';
 import Grid from '@material-ui/core/Grid'
 
-const PageContainer = ({ children }) => (
-    <Grid container className="page-container" justify="center">
+const PageContainer = ({ children, className }) => (
+    <Grid container className={`${className && className} page-container`} justify="center">
         {children}
     </Grid>
 )

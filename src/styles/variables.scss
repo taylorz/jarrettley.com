@@ -13,8 +13,8 @@ $fontColor:                        #000000;
 $primaryColor:                     #0000ff;
 
 
-$timing:                             .25s;
-$easingRegular:                      linear;
+$timing:                             .5s;
+$easingRegular:                      ease-in-out;
 $transition:                         all $timing $easingRegular;
 
 $xs:                                 600px;

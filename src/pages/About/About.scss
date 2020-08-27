@@ -1,3 +1,13 @@
 @import "../../styles/styles.scss";
 
-.about {}
+.about-page {
+    .about-page-wrapper {
+        height: 100vh;
+        .bio-statement {
+            margin-top: $lineHeightStatement*3;
+        }
+        .copyright {
+            margin-bottom: $lineHeight;
+        }
+    }
+}
