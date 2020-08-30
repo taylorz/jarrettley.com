@@ -27,6 +27,9 @@
                     color: $primaryColor;
                     @include transition;
                 }
+                .active {
+                    color: $primaryColor;
+                }
             }
         }
     }

@@ -8,13 +8,13 @@ const Nav = () => (
         <Grid item xs={12} className="nav-wrapper">
             <ul className="nav-links">
                 <Grid container justify="space-between">
-                    <Grid item><li className="nav-name"><NavLink exact to="/">JARRETT LEY</NavLink></li></Grid>
-                    <Grid item><li className="nav-name"><NavLink exact to="/about">INFORMATION</NavLink></li></Grid>
+                    <Grid item><li className="nav-name"><NavLink exact to="/" is-active="active">JARRETT LEY</NavLink></li></Grid>
+                    <Grid item><li className="nav-name"><NavLink exact to="/about" is-active="active">INFORMATION</NavLink></li></Grid>
                 </Grid>
-                <li>THE NEAR DEATH OF ZAOURA, </li>
-                <li>A POLITICS OF DISSASSEMBLY, </li>
-                <li>EVIDENCING LIFE, </li>
-                <li>JUST CITIZENSHIP</li>
+                <li><NavLink exact to="/the-near-death-of-zaoura" is-active="active">THE NEAR DEATH OF ZAOURA, </NavLink></li>
+                <li><NavLink exact to="/a-politics-of-dissassembly" is-active="active">A POLITICS OF DISSASSEMBLY, </NavLink> </li>
+                <li><NavLink exact to="/evidencing-life" is-active="active">EVIDENCING LIFE </NavLink></li>
+                {/* <li>JUST CITIZENSHIP</li> */}
             </ul>
         </Grid>
     </Grid>

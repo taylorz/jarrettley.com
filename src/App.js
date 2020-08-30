@@ -4,12 +4,18 @@ import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import createHistory from 'history/createBrowserHistory'
 import Home from './pages/Homepage/Homepage'
+import DOZ from './pages/DOZ/DOZ'
+import POD from './pages/POD/POD'
+import EL from './pages/EL/EL'
 import About from './pages/About/About'
 import Nav from './components/Nav/Nav'
 
 const routes = [
   { path: '/', name: 'Home', Component: Home },
   { path: '/about', name: 'About', Component: About },
+  { path: '/the-near-death-of-zaoura', name: 'DOZ', Component: DOZ },
+  { path: '/a-politics-of-dissassembly', name: 'POD', Component: POD },
+  { path: '/evidencing-life', name: 'EL', Component: EL },
 ]
 
 const history = createHistory()
