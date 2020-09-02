@@ -4,6 +4,11 @@
     margin-top: 50vh;
     font-size: $fontSizeStatement;
     line-height: $lineHeightStatement;
+    @include breakpoint(xs) {
+        padding-left: $buffer*4;
+        font-size: $fontSize;
+        line-height: $lineHeight;
+    }
     &:last-child {
         margin-bottom: 50vh;
     }

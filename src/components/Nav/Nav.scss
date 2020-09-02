@@ -6,6 +6,11 @@
     line-height: $lineHeightStatement;
     position: fixed;
     z-index: 5;
+    @include breakpoint(xs) {
+        font-size: $fontSize;
+        line-height: $lineHeight;
+        padding: $buffer*4;
+    }
     .nav-wrapper {
         ul.nav-links {
             list-style-type: none;
