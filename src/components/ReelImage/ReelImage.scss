@@ -2,7 +2,7 @@
 
 .reel-image-container {
     margin-top: $buffer*2;
-    @include breakpoint(xs) {
+    @include breakpoint(sm) {
         padding-right: $buffer*4;
     }
     &:first-child {

@@ -4,7 +4,7 @@
     margin-top: 50vh;
     font-size: $fontSizeStatement;
     line-height: $lineHeightStatement;
-    @include breakpoint(xs) {
+    @include breakpoint(sm) {
         padding-left: $buffer*4;
         font-size: $fontSize;
         line-height: $lineHeight;

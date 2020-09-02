@@ -6,7 +6,7 @@
     line-height: $lineHeightStatement;
     position: fixed;
     z-index: 5;
-    @include breakpoint(xs) {
+    @include breakpoint(sm) {
         font-size: $fontSize;
         line-height: $lineHeight;
         padding: $buffer*4;
