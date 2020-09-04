@@ -4,7 +4,7 @@
     position: absolute;
     top: 0;
     .reel-text-wrapper {
-        @include animation(reel1, 240s, linear, 0s, infinite, alternate, forwards);
+        @include animation(reel1, 200s, linear, 0s, infinite, alternate, forwards);
     }
     .reel-image-wrapper {
         z-index: -2;
