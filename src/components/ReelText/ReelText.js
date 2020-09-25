@@ -10,7 +10,11 @@ const ReelText = ({ text, title, year }) => (
                 <Grid item container xs={2} justify="flex-end">{year}</Grid>
             </Grid>
         </Grid>
-        <Grid item xs={10} className="text-body">{text}</Grid>
+        <Grid item xs={10} className="text-body">
+            {text.map((t) =>
+                <p>{t}</p>
+            )}
+        </Grid>
     </Grid>
 )
 

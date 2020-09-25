@@ -1,12 +1,14 @@
 @import "../../styles/styles.scss";
 
 .about-page {
+    pointer-events: auto;
     .about-page-wrapper {
         height: 100vh;
         .bio-statement {
             margin-top: $lineHeightStatement*4;
         }
         .copyright {
+            margin-top: $lineHeight*2;
             margin-bottom: $lineHeight;
         }
     }

@@ -13,8 +13,8 @@ const About = () => (
                         Jarrett Ley is an architectural designer and researcher whose work investigates architecture's entanglements with violence, war, and power. Situated within the expanded discourse of architecture, these inquires probe built/unbuilt environments, media, and technology as agents and artifacts of politics. This work exists across multiple modes of inquiry and dissemination- including drawing, animation, text, book, audio, and exhibition.
                     </div>
                     <p>CONTACT<br/>jarrett.ley@gmail.com</p>
-                    <p>TEACHING<br/>Associate of Architecture, Planning, and Preservation at Columbia University GSAPP</p>
-                    <p>EDUCATION<br/>Columbia University GSAPP:<br/>M.S. Critical, Curatorial, and Conceptual Practices in Architecture<br/>Master of Architecture</p>
+                    <p>TEACHING<br/>Associate of Architecture, Planning and Preservation (Columbia University GSAPP)</p>
+                    <p>EDUCATION<br/>Columbia University GSAPP:<br/>M.S. Critical, Curatorial, and Conceptual Practices in Architecture (Columbia University GSAPP)<br/>Master of Architecture (Columbia University GSAPP)</p>
                 </Grid>
                 <Grid item container alignItems="flex-end" xs={12}>
                     <div className="copyright">
