@@ -10,3 +10,22 @@
         padding: 0 $buffer*4;
     }
 }
+.pause-toggler {
+    position: absolute;
+    left: $buffer*2;
+    bottom: $buffer*4;
+    font-size: $fontSizeStatement;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.is-paused {
+    .reel-container {
+        .reel-text-wrapper {
+            animation-play-state: paused;
+        }
+        .reel-image-wrapper {
+            animation-play-state: paused;
+        }
+    }
+}
