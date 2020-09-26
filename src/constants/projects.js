@@ -34,6 +34,7 @@ const PROJECTS = [
             doz3,
             doz4,
             doz5,
+            spacer
         ],
         videos: [ 
             "https://player.vimeo.com/video/462007248?autoplay=1&loop=1"
@@ -52,7 +53,8 @@ const PROJECTS = [
             pod6,
             pod7,
             spacer
-        ]
+        ],
+        videos: []
     },
     {
         title: "Evidencing Life",
@@ -67,7 +69,8 @@ const PROJECTS = [
             el6,
             el7,
             spacer
-        ]
+        ],
+        videos: []
     },
 ]
 

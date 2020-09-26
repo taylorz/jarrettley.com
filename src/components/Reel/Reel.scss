@@ -2,7 +2,7 @@
 
 .reel-container {
     position: absolute;
-    top: 0;
+    top: 25vh;
     .reel-text-wrapper {
         @include animation(reel1, 200s, linear, 0s, infinite, alternate, forwards);
     }

@@ -8,7 +8,7 @@ import PROJECTS from '../../constants/projects'
 const Homepage = () => (
     <PageContainer className="home-page">
         <Reel text project={PROJECTS}/>
-        <Reel image project={PROJECTS}/>
+        <Reel image video project={PROJECTS}/>
     </PageContainer>
 )
 

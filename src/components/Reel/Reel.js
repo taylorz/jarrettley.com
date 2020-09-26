@@ -22,7 +22,7 @@ const Reel = ({ text, image, project, video }) => (
                     }
                 </Grid>
                 <Grid item className="reel-image-wrapper">
-                    {video && 
+                    {video &&
                         project.map((p) => 
                             p.videos.map((video) =>
                                 <ReelVideo
