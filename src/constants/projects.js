@@ -34,7 +34,9 @@ const PROJECTS = [
             doz3,
             doz4,
             doz5,
-            spacer
+        ],
+        videos: [ 
+            "https://player.vimeo.com/video/462007248?autoplay=1&loop=1"
         ]
     },
     {

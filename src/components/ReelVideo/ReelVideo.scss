@@ -1,0 +1,19 @@
+@import "../../styles/styles.scss";
+
+.reel-video-container {
+    margin-top: $buffer*2;
+    @include breakpoint(sm) {
+        padding-right: $buffer*4;
+    }
+    &:first-child {
+        margin-top: 0;
+    }
+    .reel-video {
+        position: relative;
+        padding: 50% 0 0 0;
+        .iframe-element {
+            position:absolute;
+            top:0;left:0;width:100%;height:100%;
+        }
+    }
+}

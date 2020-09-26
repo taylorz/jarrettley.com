@@ -8,7 +8,7 @@ import PROJECTS from '../../constants/projects'
 const DOZ = () => (
     <PageContainer className="doz-page">
         <Reel text project={PROJECTS.slice(0, 1)}/>
-        <Reel image project={PROJECTS.slice(0, 1)}/>
+        <Reel image video project={PROJECTS.slice(0, 1)}/>
     </PageContainer>
 )
 
